@@ -1,6 +1,11 @@
-import pickle
+import joblib
 import streamlit as st
 import numpy as np
+
+# Memuat model yang sudah dilatih sebelumnya
+model_path = "water_quality_model.sav"
+water_quality_model = joblib.load(model_path)
+
 
 
 # Judul web
