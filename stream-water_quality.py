@@ -2,9 +2,6 @@ import pickle
 import streamlit as st
 import numpy as np
 
-# Memuat model yang disimpan
-filename = 'water_quality_model.sav'
-water_quality_model = pickle.load(open(filename, 'rb'))
 
 # Judul web
 st.title('Prediksi Kualitas Air')
