@@ -4,7 +4,7 @@ import numpy as np
 
 #mambaca model
 # Memuat model yang disimpan
-filename = 'water_quality.sav'
+filename = 'water_quality_model.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 
