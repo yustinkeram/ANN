@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import numpy as np
+from tensorflow.keras.models import load_model 
 
 #mambaca model
 # Memuat model yang disimpan
